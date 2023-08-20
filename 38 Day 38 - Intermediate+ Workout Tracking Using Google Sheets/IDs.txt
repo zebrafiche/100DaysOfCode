@@ -1,0 +1,5 @@
+nutritionix_app_ID = 'a70120be'
+nutritionix_api = 'f98a9e5afda8b8d3c841d57787152eea'
+sheety_endpoint = "https://api.sheety.co/a0892b931bb7f18a9dabc132e4f37037/workoutTracking/workouts"
+user = "a-a-rafi"
+password = 1123581321
