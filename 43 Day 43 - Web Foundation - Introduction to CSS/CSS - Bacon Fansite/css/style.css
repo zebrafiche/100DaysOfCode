@@ -1,0 +1,39 @@
+/**********************************Tag Selectors****************************************/
+
+body {
+    background-color: #FFE17B;
+}
+
+h1 {
+    color: red;
+    font-size: 300%;
+}
+
+
+img {
+    background-color: red;
+}
+
+img:hover {
+    background-color: yellow;
+}
+
+/**********************************Class Selectors****************************************/
+
+.bacon {
+    background-color: green
+}
+
+.brocolli {
+    background-color: red
+}
+
+.shape {
+    border-radius: 50%;
+}
+
+/**********************************ID Selectors****************************************/
+
+#header {
+    color: purple
+}
