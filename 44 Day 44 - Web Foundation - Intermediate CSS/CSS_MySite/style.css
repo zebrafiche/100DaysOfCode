@@ -1,0 +1,77 @@
+/**********************************Tag Selectors****************************************/
+
+h1 {
+    font-family: MV Boli;
+    font-size: 400%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin: 0 auto 0 auto;
+}
+
+h3 {
+    display: inline-block;
+    width: 80px;
+}
+
+p {
+    font-family: Lexend Deca;
+}
+
+div{
+    background-color: red;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+img{
+    position:relative;
+    left:30px;
+}
+/**********************************Class Selectors****************************************/
+
+.parent_mid-container{
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+}
+.top-container{
+    background-color: #C8E4B2;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+.mid-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+}
+
+/**********************************Id Selectors****************************************/
+
+#rafi{
+    background-color: yellow;
+    display: none;
+}
+
+#testing{
+    visibility: hidden;
+}
