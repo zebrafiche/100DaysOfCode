@@ -154,10 +154,15 @@ BeautifulSoup does not catch the interactions with DOM via Java Script. Let’s 
 If there was just a need to scrape static websites, we would’ve used just bs4. But, for dynamically generated webpages, we use selenium.
 
 ***3. Save the information into a dictionary***
+
 ***4. Go to the google form. User should have his/her own Google form ready with three fields -*** 
+
    ***1. Property Name***
+   
    ***2. Property Address***
+   
    ***3. Contact***
+   
    ***4. Url of the result***
 
 Not saving the information in dictionary because do not need it anymore.
@@ -208,7 +213,9 @@ class G_form:
 ```
 
 ***5. Input the data into the Google form***
+
 ***6. Click submit***
+
 ***7. Loop the process for all the instances***
 
 ```python
