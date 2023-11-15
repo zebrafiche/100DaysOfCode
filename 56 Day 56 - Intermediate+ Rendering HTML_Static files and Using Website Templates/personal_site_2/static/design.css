@@ -1,0 +1,112 @@
+/**********************************Tag Selectors****************************************/
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    background-color: #E0EBE8;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 400%;
+    width: 10%;
+    margin: 0 auto 0 auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+b{
+    text-align: left;
+}
+
+/**********************************Class Selectors****************************************/
+
+.text-vertical{
+    position: relative;
+    top; 100px;
+}
+
+/**********************************Id Selectors****************************************/
+
+#sun {
+    position: relative;
+}
+
+#top_cloud {
+    position: absolute;
+    top: 140px;
+    right: 470px;
+}
+
+#right-bottom-cloud {
+    position: absolute;
+    right: 200px;
+    top: 280px;
+}
+
+#left-bottom-cloud{
+    position: absolute;
+    left: 180px;
+}
+
+#mountain {
+    position: relative;
+}
+
+#my-photo{
+    border-radius: 50%
+    border-style:solid;
+    border-width:5px;
+    width: 30%
+}
+
+#intro{
+    display: inline-block;
+    width: 50%
+}
+
+#intro-text{
+
+}
+
+#name{
+
+}
+
+#experience{
+    margin-top: 30px;
+    display: inline-block;
+    width: 50%
+
+}
+
+#my-exp-photo{
+    width: 10%;
+}
+
+#exp-title{
+    text-align:center;
+}
+
+#exp-text{
+    text-align:center;
+}
