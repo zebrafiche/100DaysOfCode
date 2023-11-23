@@ -59,7 +59,7 @@ Authentication done, hopefully
 
 From the spotify website, find your user id (username)
 
-![Screenshot](.\screenshot_1.png)
+![Screenshot](./screenshot_1.png)
 
 ```python
 import pprint
