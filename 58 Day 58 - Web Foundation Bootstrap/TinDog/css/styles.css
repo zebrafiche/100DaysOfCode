@@ -1,0 +1,223 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+/**********************************Tag Selectors****************************************/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+body #title {
+    text-align: left;
+}
+
+section#title {
+    background-color: #ef8172;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 50px
+}
+
+/**********************************Class Selectors****************************************/
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+.navbar {
+    padding-bottom: 4.5rem
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: white;
+    padding-left: 5px
+}
+
+.navbar-nav {
+    padding-right: 50px;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px ;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.20rem;
+    font-weight: 100;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.feature-head {
+    font-weight: 900;
+    font-size: 1.50rem;
+    padding-top: 15px;
+}
+
+.feature-text {
+    color: #8f8f8f
+}
+
+.fa-solid {
+    color: #ef8172;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+.press-image {
+    width: 20%;
+    padding: 2% 2% 2% 2%;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: black;
+  --bs-btn-border-color: #ef8172;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ef8172;
+  --bs-btn-hover-border-color: #ff4c68;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ef8172;
+  --bs-btn-border-color: #ef8172;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ff4c68;
+  --bs-btn-hover-border-color: #ff4c68;
+}
+
+.testimonials-text {
+    font-weight: 600;
+    font-style: italic;
+    padding: 0% 10% 0% 10%;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    padding: 2% 0% 2% 0%;
+}
+
+.display-4 {
+  font-size: 2rem;
+  line-height: 0;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 20px
+}
+
+.lead {
+    font-weight: 400;
+}
+
+.footer-icon {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    color: #ef8172;
+}
+
+/**********************************Id Selectors****************************************/
+
+#title {
+    position: absolute;
+    z-index: -1;
+}
+
+#everything-else {
+    position: absolute;
+    top: 600px;
+}
+
+#features {
+    background-color: white;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    padding: 3% 3% 3% 3%;
+}
+
+#press {
+    background-color: #ef8172;
+}
+
+#pricing {
+    padding: 0px 100px 0px 100px;
+}
+
+#last-card-price {
+    margin-bottom: -1.5rem;
+}
+
+#cta {
+    background-color: #ef8172;
+    margin-top: 2%;
+}
+
+#cta-text {
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+    padding: 3% 27% 3% 27%;
+}
+
+#cta-buttons {
+    padding-bottom: 5%;
+}
+
+#footer {
+    padding: 3% 0% 2% 0%;
+}
+
+#footer-text {
+    color: #2f2f2f;
+    font-size: 0.80rem;
+}
+
+/**********************************Media Breakpoints****************************************/
+
+
+@media (max-width: 900px) {
+
+.title-image {
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 2%;
+}
+
+#title{
+    text-align: center;
+    position: static;
+}
+
+#everything-else {
+    position: static;
+}
+
+.testimonials-text {
+    font-size: 1rem;
+}
+
+.display-4 {
+    line-height: 1;
+}
+}
