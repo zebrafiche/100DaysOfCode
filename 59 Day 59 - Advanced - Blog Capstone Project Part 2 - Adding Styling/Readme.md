@@ -23,15 +23,15 @@ By the end of today, you will build a blog website with these features:
 
 1. Multi-page website with an interactive navigation bar:
 
-![OutputExample](https://img-c.udemycdn.com/redactor/raw/2020-09-23_10-09-06-b3984da0a13542960c1e9c8f7b185fe4.gif)
+![OutputExample](./images/04.gif)
 
 2. Dynamically generated blog post pages with full screen titles:
 
-![OutputExample2](https://img-c.udemycdn.com/redactor/raw/2020-09-23_10-11-19-f1af9ef797b737b17f1d00679267556f.gif)
+![OutputExample2](./images/05.gif)
 
 3. Fully mobile responsive with an adaptive navigation bar:
 
-![OutputExample3](https://img-c.udemycdn.com/redactor/raw/2020-09-23_10-12-37-5bedcf5735698351dfb94706895342a7.gif)
+![OutputExample3](./images/06.gif)
 
 ### 501 Step 1 - Download the starting project
 
