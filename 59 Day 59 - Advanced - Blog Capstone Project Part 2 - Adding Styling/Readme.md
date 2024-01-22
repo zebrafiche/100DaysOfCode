@@ -23,7 +23,7 @@ By the end of today, you will build a blog website with these features:
 
 1. Multi-page website with an interactive navigation bar:
 
-![OutputExample](./images/04.gif)
+![OutputExample](./images/04a.gif)
 
 2. Dynamically generated blog post pages with full screen titles:
 
